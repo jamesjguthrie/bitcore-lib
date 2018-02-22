@@ -4676,7 +4676,7 @@ function removeNetwork(network) {
 addNetwork({
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x00,
+  pubkeyhash: 0x1C, //changed from 0x00 for test of CHAN address generation
   privatekey: 0x80,
   scripthash: 0x05,
   xpubkey: 0x0488b21e,
