@@ -4681,15 +4681,12 @@ addNetwork({
   scripthash: 0x05,
   xpubkey: 0x0488b21e,
   xprivkey: 0x0488ade4,
-  networkMagic: 0xf9beb4d9,
-  port: 8333,
+  networkMagic: 0xb05ec58a,
+  port: 19117,
   dnsSeeds: [
-    'seed.bitcoin.sipa.be',
-    'dnsseed.bluematt.me',
-    'dnsseed.bitcoin.dashjr.org',
-    'seed.bitcoinstats.com',
-    'seed.bitnodes.io',
-    'bitseed.xf2.org'
+      195.181.244.29,
+      95.85.5.164,
+      138.197.94.176
   ]
 });
 
